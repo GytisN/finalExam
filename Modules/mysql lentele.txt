@@ -8,3 +8,4 @@ el_pastas VARCHAR(255) NOT NULL,
 amzius INT(11) NOT NULL,
 PRIMARY KEY (id)
 );
+ALTER TABLE vartotojai CHANGE amzius gimimo_data DATE NOT NULL;

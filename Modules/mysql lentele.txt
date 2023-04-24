@@ -1,0 +1,10 @@
+CREATE DATABASE finalexam;
+USE finalexam;
+CREATE TABLE vartotojai (
+id INT(11) NOT NULL AUTO_INCREMENT,
+vardas VARCHAR(255) NOT NULL,
+pavarde VARCHAR(255) NOT NULL,
+el_pastas VARCHAR(255) NOT NULL,
+amzius INT(11) NOT NULL,
+PRIMARY KEY (id)
+);
